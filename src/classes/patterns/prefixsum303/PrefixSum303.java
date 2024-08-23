@@ -1,4 +1,4 @@
-package classes.patterns;
+package classes.patterns.prefixsum303;
 
 public class PrefixSum303 {
     public static void main(String[] args) {

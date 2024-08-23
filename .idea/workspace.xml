@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f4d5a63-4a51-45f9-b3f3-e8037b6c2309" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classes/patterns/PrefixSum303.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/patterns/prefixsum303/TestPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/patterns/slidingwindow/LongestSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/patterns/PrefixSum303.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/patterns/prefixsum303/PrefixSum303.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +49,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LongestSubstring.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.PrefixSum303.executor": "Run",
+    "Application.TestPrefix.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/rahulgole/Documents/Angular-17-CRUD-Application"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrefixSum303">
+  <component name="RunManager" selected="Application.LongestSubstring">
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.patterns.slidingwindow.LongestSubstring" />
+      <module name="mydsasolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.patterns.slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="mydsasolution" />
@@ -63,11 +82,24 @@
       </method>
     </configuration>
     <configuration name="PrefixSum303" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.patterns.PrefixSum303" />
+      <option name="MAIN_CLASS_NAME" value="classes.patterns.prefixsum303.PrefixSum303" />
       <module name="mydsasolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.patterns.*" />
+          <option name="PATTERN" value="classes.patterns.prefixsum303.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.patterns.prefixsum303.TestPrefix" />
+      <module name="mydsasolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classes.patterns.prefixsum303.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,6 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstring" />
+        <item itemvalue="Application.TestPrefix" />
         <item itemvalue="Application.PrefixSum303" />
         <item itemvalue="Application.Main" />
       </list>
